@@ -1,0 +1,16 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <h1 class="titulo">Hola Mundo</h1>
+  <h1 class="titulo">{{saludo}}</h1>
+  <ion-button color="primary" routerLink="/pagina1">Pagina 1</ion-button>
+  <ion-button color="secondary" (click)="irPagina2()">Pagina 2</ion-button>
+  <ion-button color="tertiary" (click)="irPagina3()">Pagina 3</ion-button>
+  
+</ion-content>
