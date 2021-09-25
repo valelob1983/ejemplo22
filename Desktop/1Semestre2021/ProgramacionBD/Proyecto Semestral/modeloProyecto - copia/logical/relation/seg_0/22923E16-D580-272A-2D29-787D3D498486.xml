@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ESTU SEC TESCUELA FK" directorySegmentName="seg_0" id="22923E16-D580-272A-2D29-787D3D498486">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 01:26:08 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<sourcePk>BD5AEE53-D541-3F35-6F72-0F58D39400FB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>40D265B3-037D-04DE-D1A7-5A91BEA378BF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1EBA5459-4B19-CAAD-5446-8D5799FE9A76</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

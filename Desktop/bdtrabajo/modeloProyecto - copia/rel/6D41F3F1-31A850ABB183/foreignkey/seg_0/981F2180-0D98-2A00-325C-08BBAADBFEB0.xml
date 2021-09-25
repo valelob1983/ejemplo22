@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="981F2180-0D98-2A00-325C-08BBAADBFEB0" containerWithKeyObject="8DAE5233-BE0D-1E5C-E417-44F959E7A7B3" localFKIndex="6A226EB9-4FC4-AFB6-ECF8-1FE34A515D7D" name="FOR_EST_SECUNDARIOS_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>1DDE1D6E-39B5-7666-3348-4CD2950F788F</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<referredTableLongName>ESTUDIOS_SECUNDARIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1A5D8C76-4613-63A0-C15E-44798892A988</referredTableID>
+<keyObject>9F2C7FF9-02B3-B7A4-EED0-1623780BF8ED</keyObject>
+<referredKeyID>9F2C7FF9-02B3-B7A4-EED0-1623780BF8ED</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_inst_escolar</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

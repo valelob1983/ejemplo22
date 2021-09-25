@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FORM EXP LABORAL AC FK" directorySegmentName="seg_0" id="052C386F-841F-B85C-2B0D-4AD1FC5C4B59">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 23:18:00 UTC</createdTime>
+<generatorID>B72BC0F8-60E5-87B3-12AA-D9B51EFEF9E1</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<sourcePk>09F9BC68-6BD8-A70D-CD05-82F7699EAE5D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D85BE591-55A3-2110-6C7D-69F399787467</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B03DA7F0-3CD4-B6C8-3377-939CC16D353A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

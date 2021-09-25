@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0E8E94E-0A48-060F-A2FA-655FEA3826FB" name="IDIOMA_POSTULANTE">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<ordsAlias>relation_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_idioma_pos" id="D5A192FB-AA08-D58D-8412-C482F09E9C98">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 03:09:16 UTC</createdTime>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_postulacion" id="471D2A2E-6418-9CFE-1CDB-02DC003688C3">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="263A5024-9C98-18C1-CCF7-0EBD4C284970" referredColumn="0D0974C4-DEA2-9A55-7D0D-EEF9A089ED0F"/>
+</associations>
+</Column>
+<Column name="id_idioma" id="A0E9A1E3-1C2A-79E1-F6AB-97A3DD506CD1">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2D9FCE3-5F62-C77F-41BF-2BFD63F1DA8E" referredColumn="DB138A51-80D3-4BE6-8C04-5DF29DDBDE2F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB3673BF-80B7-789B-6309-1F443B2DDEB6" name="Relation_13_PK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5A192FB-AA08-D58D-8412-C482F09E9C98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69F935FA-D75B-9747-2CBA-115F8FA19E54" name="IDIOMA_FORM_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>B2076CCA-EB71-A4AC-B367-F531A7FC4C00</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="471D2A2E-6418-9CFE-1CDB-02DC003688C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9468CD0E-24FF-2273-FA18-0FA95EBE5BA7" name="FORM_IDIOMA_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>B2076CCA-EB71-A4AC-B367-F531A7FC4C00</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0E9A1E3-1C2A-79E1-F6AB-97A3DD506CD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

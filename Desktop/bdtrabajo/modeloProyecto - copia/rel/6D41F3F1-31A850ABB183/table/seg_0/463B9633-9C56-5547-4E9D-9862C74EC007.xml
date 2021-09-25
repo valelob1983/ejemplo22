@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="463B9633-9C56-5547-4E9D-9862C74EC007" name="PARTICIPACION_PROY">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>5AD9F982-1DAD-1189-B36E-AA841DCBB8BE</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_proyecto" id="E0DF2F07-57B2-A698-5287-8506C61BB604">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>07AC3945-1589-3CA0-3BB7-099A5DE75359</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo" id="120D56FF-A788-5102-EC1C-6402118422F3">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>B756114C-5567-5BF5-CFF7-54E9F9084E55</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46899C1A-4166-298F-2312-70FC024941E7" name="PARTICIPACION_PROY_PK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>0056ECE8-71B9-F483-6F41-3A6433B939D8</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0DF2F07-57B2-A698-5287-8506C61BB604"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C31B375-93AC-C1FF-ADEC-7CACB283A0A3" name="TIPO_ESTUDIOS">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>BAF1289F-D443-3855-C73C-F3D65FB81113</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_t_estudios" id="FAFC67FD-ED58-F851-5DB6-D441CA07E3DF">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>DEE7C39F-2FE3-4E61-7F2D-B7DC8F4345D8</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="E1B8F9F2-DE84-8FE8-306A-BB7DD77C7FAA">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>C44B9461-80D4-9720-5E5F-0BC7B4FC9199</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_universidad" id="FD41ECB8-8433-983F-15A2-44A2874F5B2E">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>4A73E85B-CE71-98E5-9148-CB7071BEE396</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="907D5BF6-ACB6-3E7D-737E-3938C3CBE362" referredColumn="D8086199-83C8-B895-0AD9-42E4D3EC0262"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E038F353-089F-E67B-D8C5-BCBE3DF2FFE1" name="TIPO_ESTUDIOS_PK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>DA3BD981-68A5-17B7-98FF-0514BB2BE493</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAFC67FD-ED58-F851-5DB6-D441CA07E3DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E4C5561-E47C-787D-E79C-B5ED8BBB4361" name="T_EST_INST_ACA_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>926AAB29-CD1C-19FF-B9D1-70AA0DFB9267</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD41ECB8-8433-983F-15A2-44A2874F5B2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

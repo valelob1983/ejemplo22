@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8FAD2493-27EE-C15B-7F7E-8FBEA7F059BE" name="DIRECCION">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-21 00:43:39 UTC</createdTime>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id comuna" id="A70111AC-8DFC-FBC9-5C9F-4057226533AF">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 01:27:01 UTC</createdTime>
+<generatorID>6DD2483D-DE7B-2A60-479E-38A1341DC74D</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<referedAttribute>9352680C-B4F6-AA5A-F095-FADA7B21D56A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id tdireccion" id="33706741-86C7-53BB-3C3A-ACB4332B1D5F">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 01:29:34 UTC</createdTime>
+<generatorID>41C868DA-F6AC-7EBA-1DAE-7EE4497A564C</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<referedAttribute>E27DD377-2F6D-0D0A-8B12-EDFE36BE9992</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="calle" id="64A1D72E-BCF0-EB1F-0F32-2938523B2726">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 01:43:03 UTC</createdTime>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeracion" id="B6B302BB-AD9A-D20B-2149-3544C4ABFA2E">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 01:43:16 UTC</createdTime>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="recibe corresp" id="95807360-A8CF-E5A8-E22C-D61FB4114198">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 01:43:57 UTC</createdTime>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id direccion" id="A2610F03-29BD-DD5D-8827-B7DA034A5406">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 23:18:00 UTC</createdTime>
+<generatorID>8F852315-E60D-A7A0-2B54-36FCCA4FCF25</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

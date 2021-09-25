@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9BB1EBD2-CF03-9506-20B7-8B8B73302596" containerWithKeyObject="8DAE5233-BE0D-1E5C-E417-44F959E7A7B3" localFKIndex="275A3290-8F56-DB45-C154-B2030C2ED972" name="FORM_ESTADO_CIVIL_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>4DB901A9-0D0A-82D5-5CB1-F2C7B2CF534D</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<referredTableLongName>ESTADO_CIVIL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9FD2A065-9257-F471-ECC1-DB88AF73BAB4</referredTableID>
+<keyObject>520B22FE-E875-1335-1C53-22B379FEA9F2</keyObject>
+<referredKeyID>520B22FE-E875-1335-1C53-22B379FEA9F2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_est_civil</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

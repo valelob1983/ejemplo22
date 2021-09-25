@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4E96278A-7AEB-EB94-80E9-0143235B06BA" containerWithKeyObject="6A6E5300-6FAE-9DC4-BDE5-28FA4274E69B" localFKIndex="BDA06082-5000-2E03-E5E6-F2B1F2E57BB9" name="O_F_PART_PROY_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>DE3861EE-289E-F664-33B0-D6689FE39147</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<referredTableLongName>PARTICIPACION_PROY</referredTableLongName>
+<arc>F50A0349-906F-A79B-5752-20E4DD070AAD</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>463B9633-9C56-5547-4E9D-9862C74EC007</referredTableID>
+<keyObject>46899C1A-4166-298F-2312-70FC024941E7</keyObject>
+<referredKeyID>46899C1A-4166-298F-2312-70FC024941E7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_proyecto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

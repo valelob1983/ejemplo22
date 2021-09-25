@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="51765CB1-D57E-3F77-9BC5-6B23059EE895" containerWithKeyObject="8DAE5233-BE0D-1E5C-E417-44F959E7A7B3" localFKIndex="FB84752A-DB36-1CA3-539D-B2FC9B5F71B1" name="FORM_MODALIDAD_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 23:15:22 UTC</createdTime>
+<generatorID>81FA7813-237F-5D93-8600-4C15EA5FD8C1</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<referredTableLongName>MODALIDAD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C3623A6F-1630-C571-3F6A-F1A0CC9BFA13</referredTableID>
+<keyObject>52677863-5265-1664-F36C-F800946335C8</keyObject>
+<referredKeyID>52677863-5265-1664-F36C-F800946335C8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_modalidad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

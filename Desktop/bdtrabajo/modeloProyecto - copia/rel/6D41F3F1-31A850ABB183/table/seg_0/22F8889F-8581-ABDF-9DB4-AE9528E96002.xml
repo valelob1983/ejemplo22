@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22F8889F-8581-ABDF-9DB4-AE9528E96002" name="POSTULANTE">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>53FBFD84-044C-4C2B-E909-383AF0D6B83B</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<ordsAlias>postulantev2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numrun" id="3DCCC1D7-4A6B-7833-F7ED-114365F9A686">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>28730BD5-FD77-C985-F970-08A263004F94</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_nombre" id="7D074F99-40B5-AF3A-326C-302BC7E21836">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>86904AEA-FD69-BA47-ED25-27F866DCB127</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_nombre" id="9C1A3480-3BDB-2E55-0474-41297F64FCCF">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>61735832-A686-DE56-ED26-330A6ABA921B</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_apellido" id="258B950E-E4F4-1762-19C8-33D87085E1CF">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>DB3783FB-FC1B-3671-97A0-79209651D963</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_apellido" id="8D50C6F6-3FE9-CF51-A2DD-2421A425D043">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>20000C63-50C7-5F9B-77D9-9215DFCD8DC2</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="7A9D3158-CB9A-F0B7-B35F-366786154F4B">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>AFF83246-98DE-35FB-AC5D-BB800144AF2D</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_genero" id="BA12889D-3F81-DB86-8FA8-53C76B08EF72">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>23D098DB-9CCD-5FAC-C327-A96210A15F2D</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DBDE7A3F-3E0B-3A3B-3F4D-C1F1F6AF5BE2" referredColumn="72B09222-CBDA-9B4E-E82C-9BF339D68293"/>
+</associations>
+</Column>
+<Column name="id_nacionalidad" id="3D1141C4-BE45-E13E-D070-EADDA1D446B0">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>13FD0311-E355-B3BA-DFF3-D93DBE64DCD8</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD7DDE93-CBA1-F81F-158E-C87E72D5B359" referredColumn="60B1849A-0F32-E6A8-0725-80518B031959"/>
+</associations>
+</Column>
+<Column name="VISA_PASAPORTE" id="52BA99DF-51CA-A02A-EE6F-305D5511034A">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 03:02:46 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BAC9270C-2A88-2D96-614B-BDF05102AB1C" name="POSTULANTE_PK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>F644F198-D080-F8E8-5234-C939C21E5229</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DCCC1D7-4A6B-7833-F7ED-114365F9A686"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3FD22D0-48D6-139B-7766-5DBF88B86951" name="POST_GENERO_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>CB987279-6912-166E-F54D-6A8EDB7B37EC</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA12889D-3F81-DB86-8FA8-53C76B08EF72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF8D48EC-C28C-2086-EA3D-31F8F3BE0D6B" name="POST_NACIONALIDAD_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>97E628AD-45A8-4BFF-23A8-EB73499FBDFD</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D1141C4-BE45-E13E-D070-EADDA1D446B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

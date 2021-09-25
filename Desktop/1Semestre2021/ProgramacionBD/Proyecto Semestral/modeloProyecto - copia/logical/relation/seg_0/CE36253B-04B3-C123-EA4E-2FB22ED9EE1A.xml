@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="J_A_INST_ACA_FK" directorySegmentName="seg_0" id="CE36253B-04B3-C123-EA4E-2FB22ED9EE1A">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 23:18:00 UTC</createdTime>
+<generatorID>07886BD8-3C11-3465-BBF7-9B52E4A6CBAC</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<sourcePk>970C1AA7-935A-0603-A1B5-A4F2580BA57D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0345A7AD-DC9F-36A5-223C-63E73959BDC1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4D8D8A80-A452-E032-E73D-FB56B5C08F09</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

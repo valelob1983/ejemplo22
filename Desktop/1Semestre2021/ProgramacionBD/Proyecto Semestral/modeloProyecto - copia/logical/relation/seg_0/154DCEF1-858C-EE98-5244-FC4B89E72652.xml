@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="IDIOMA_N_IDIOMA_FK" directorySegmentName="seg_0" id="154DCEF1-858C-EE98-5244-FC4B89E72652">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 23:18:00 UTC</createdTime>
+<generatorID>1BD083AC-0D1D-3403-A122-E0871DB056AF</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<sourcePk>61194713-499C-5F8E-D3EB-DBD7B0F05743</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>05C0EF1F-C683-E89B-D8ED-1E991CAC61F6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>54B223D8-CB53-7A5C-9EE6-8541B5F93AFA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

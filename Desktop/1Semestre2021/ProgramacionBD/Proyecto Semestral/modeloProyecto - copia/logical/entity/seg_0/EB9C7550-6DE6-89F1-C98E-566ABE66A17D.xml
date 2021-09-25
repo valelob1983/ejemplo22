@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EB9C7550-6DE6-89F1-C98E-566ABE66A17D" name="POSTITULO ESPECIALIZACION">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-21 00:40:58 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id post esp" id="6A4F12C6-DEFC-6A6B-3DF5-E18187BD71AC">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 01:48:19 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id universidad" id="A13ACCDE-E07E-862A-FE92-A30C5037D9B7">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 01:51:03 UTC</createdTime>
+<generatorID>EFB55266-3ADE-2833-5619-4AD9ACE9668F</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<referedAttribute>EB50FA98-5400-B7DD-13B1-BDB4C06C1FEF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre prog est" id="49F42F61-D68B-D45C-EE23-0FD29B24879E">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 01:52:33 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha obtencion" id="472848FF-2DAF-AD79-654F-3A760EDA9181">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 01:52:58 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id postulacion" id="EAAD2677-89D3-3531-AAA0-70ABABCCA541">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:47:08 UTC</createdTime>
+<generatorID>AC21E662-E978-4322-213F-BB612F1C8E90</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<referedAttribute>E3E48A5A-4782-ABD3-80FB-90DF21A3BE22</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="46DF0826-EDF2-66E7-DB32-2DDB89A57276" name="POSTITULO_ESPECIALIZACION_PK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 01:49:58 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6A4F12C6-DEFC-6A6B-3DF5-E18187BD71AC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

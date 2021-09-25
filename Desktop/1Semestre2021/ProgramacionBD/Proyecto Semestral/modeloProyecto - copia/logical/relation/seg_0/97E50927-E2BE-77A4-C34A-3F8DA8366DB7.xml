@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FORM PART PROY FK" directorySegmentName="seg_0" id="97E50927-E2BE-77A4-C34A-3F8DA8366DB7">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 23:18:00 UTC</createdTime>
+<generatorID>DF67A8F1-F924-4626-B93F-C6C6524FEA6D</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<sourcePk>0056ECE8-71B9-F483-6F41-3A6433B939D8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5AD9F982-1DAD-1189-B36E-AA841DCBB8BE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B03DA7F0-3CD4-B6C8-3377-939CC16D353A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

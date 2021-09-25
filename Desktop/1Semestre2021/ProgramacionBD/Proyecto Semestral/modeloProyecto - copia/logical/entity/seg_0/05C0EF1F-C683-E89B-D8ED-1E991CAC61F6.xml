@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="05C0EF1F-C683-E89B-D8ED-1E991CAC61F6" name="NIVEL IDIOMA">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-19 23:16:16 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id nivel idioma" id="A7AD796A-9524-01A0-D344-BFFD75110CA2">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-19 23:22:56 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="C8169B06-8096-CE58-4433-4D0452DB3A97">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-19 23:25:53 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="61194713-499C-5F8E-D3EB-DBD7B0F05743" name="NIVEL_IDIOMA_PK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-19 23:31:00 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A7AD796A-9524-01A0-D344-BFFD75110CA2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

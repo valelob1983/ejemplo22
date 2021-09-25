@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DDCE796-007F-E221-5CE7-31F21ED31F3B" name="RANGO_EDAD">
+<createdBy>Acer</createdBy>
+<createdTime>2021-06-19 19:47:33 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<ordsAlias>table_31</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="679AB287-84D7-F9C2-32E8-23D81D569ED6">
+<createdBy>Acer</createdBy>
+<createdTime>2021-06-19 19:57:23 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ED_INI" id="90089A8D-61D1-E686-3DE5-407315E0CBC9">
+<createdBy>Acer</createdBy>
+<createdTime>2021-06-19 19:57:23 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ED_FINAL" id="FEB72BEC-3EC0-F564-E1E5-DDE8159731CF">
+<createdBy>Acer</createdBy>
+<createdTime>2021-06-19 19:57:23 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUNTAJE" id="796E691B-70C9-C1AF-474B-E65015500EC6">
+<createdBy>Acer</createdBy>
+<createdTime>2021-06-19 19:57:23 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E43E882-209C-4F79-2940-7BC94DA42AFF" name="RANGO_EDAD_PK">
+<createdBy>Acer</createdBy>
+<createdTime>2021-06-19 19:57:23 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="679AB287-84D7-F9C2-32E8-23D81D569ED6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

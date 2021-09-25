@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B262C44A-2D52-4769-56BE-0041CA83FA1D" name="JERARQUIAS_ACADEMICAS">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>4D8D8A80-A452-E032-E73D-FB56B5C08F09</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_jerarquia" id="B94ED364-013E-44EA-D4EE-C537EF4F6698">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>60A61F70-3119-D85C-B790-7543D3EE0055</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_jerarquia" id="70A5D731-F5B7-0DD2-89BD-C457F96D657C">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 19:30:48 UTC</createdTime>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="compromiso_contractual" id="7153D3B7-891F-2973-6F04-264CC2868046">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>97EF7403-8EE9-85CE-E6F1-1CCEDE91FD56</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_universidad" id="6C9A72DF-4191-9111-341C-5105FF1ED802">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 19:26:45 UTC</createdTime>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07886BD8-3C11-3465-BBF7-9B52E4A6CBAC" referredColumn="D8086199-83C8-B895-0AD9-42E4D3EC0262"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5D88868-B750-B81C-E1DE-B73B4EA4ADC2" name="JERARQUIAS_ACADEMICAS_PK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 19:30:48 UTC</createdTime>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B94ED364-013E-44EA-D4EE-C537EF4F6698"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C149EAA7-1CAB-10D0-E19E-84C8E0E74845" name="J_A_INST_ACA_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 19:26:45 UTC</createdTime>
+<generatorID>970C1AA7-935A-0603-A1B5-A4F2580BA57D</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C9A72DF-4191-9111-341C-5105FF1ED802"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

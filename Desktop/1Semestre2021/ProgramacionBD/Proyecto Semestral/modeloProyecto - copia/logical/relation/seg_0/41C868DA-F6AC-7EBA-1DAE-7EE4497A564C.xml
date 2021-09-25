@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="D TIPO DIRECCION FK" directorySegmentName="seg_0" id="41C868DA-F6AC-7EBA-1DAE-7EE4497A564C">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 01:29:34 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<sourcePk>E9FA7A07-02BD-D809-04C6-AD329D6BF60F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3A0D8B4F-32F1-FB1A-9457-1C438CB5DFC0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8FAD2493-27EE-C15B-7F7E-8FBEA7F059BE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

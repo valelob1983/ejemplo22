@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDC59B6E-9D02-F8BA-9BA4-A2DFCEF4A097" name="IDIOMA">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>54B223D8-CB53-7A5C-9EE6-8541B5F93AFA</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_idioma" id="DB138A51-80D3-4BE6-8C04-5DF29DDBDE2F">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>45790D61-CD3F-4783-2508-CC9BF4474332</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="9E6EC009-D7DC-4D9B-6B7B-150B0E3B1C57">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>5F75D000-5857-14B4-31A7-3774AF5CFAA6</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_nivel_idioma" id="B5C7EF68-6840-134C-41EF-41C393E019A3">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 03:13:38 UTC</createdTime>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BD083AC-0D1D-3403-A122-E0871DB056AF" referredColumn="930C177F-D2AB-816A-4CAA-A60A5236C428"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A27B9FE-8844-DF20-AA1A-CEED3474FDB1" name="IDIOMA_PK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>FFE62390-7E18-03E2-CF1B-1567DEB508BD</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB138A51-80D3-4BE6-8C04-5DF29DDBDE2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E26981B-C312-CE2A-ABA3-44B78F2CFFE7" name="IDIOMA_N_IDIOMA_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 03:13:38 UTC</createdTime>
+<generatorID>61194713-499C-5F8E-D3EB-DBD7B0F05743</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5C7EF68-6840-134C-41EF-41C393E019A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

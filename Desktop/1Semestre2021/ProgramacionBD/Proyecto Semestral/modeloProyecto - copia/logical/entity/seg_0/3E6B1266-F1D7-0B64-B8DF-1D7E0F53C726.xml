@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E6B1266-F1D7-0B64-B8DF-1D7E0F53C726" name="PUNTAJE EDAD">
+<createdBy>Acer</createdBy>
+<createdTime>2021-05-24 02:25:16 UTC</createdTime>
+<generatorID>6A82F469-36B3-018F-F88B-95A9DCB58F37</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="annio ini" id="243996BE-AEA3-F78E-9D77-0EDC587382A2">
+<createdBy>Acer</createdBy>
+<createdTime>2021-05-24 02:25:16 UTC</createdTime>
+<generatorID>D7C7CF80-9A0A-C592-DF99-726843C5905B</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="annio ter" id="178E8D34-F4A1-0BDA-2F37-8FEF6991E149">
+<createdBy>Acer</createdBy>
+<createdTime>2021-05-24 02:25:16 UTC</createdTime>
+<generatorID>F4CB988E-E180-26AB-E727-0A80D9B2191C</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="puntaje" id="A478A45D-2084-090A-7773-3334475D9869">
+<createdBy>Acer</createdBy>
+<createdTime>2021-05-24 02:25:16 UTC</createdTime>
+<generatorID>9717057E-C6D9-2753-F080-057E190929E1</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="24848D23-1F86-6C5A-E2A1-53D7AF072500" name="PUNTAJE EDAD PK">
+<createdBy>Acer</createdBy>
+<createdTime>2021-05-24 02:25:16 UTC</createdTime>
+<generatorID>01605F43-EE66-711F-1FDA-4CBA05095EF6</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>243996BE-AEA3-F78E-9D77-0EDC587382A2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

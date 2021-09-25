@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED831027-871E-2DE2-B8EE-0EA8F45D9DAF" name="EXPERIENCIA_LABORAL_AC">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>D85BE591-55A3-2110-6C7D-69F399787467</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_modalidad_el" id="C90C0642-34E2-ABC1-B78C-893247BE8554">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 03:56:14 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_experiencia" id="C74278E8-5057-7177-CB77-9751FACA5797">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>9396265C-E424-C2EC-5AFA-AC3C12AEAB91</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="institucion_empresa" id="816DE0F0-F855-D222-A21F-5E3AC9E51B64">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>49453281-C3ED-574E-D4E7-F7A7A6CAEAAE</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio" id="08B5BDFE-AE35-4B1F-9471-AE23E9F5D8A4">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>3C45B46A-31B7-5701-1AB6-059D22C6F366</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_termino" id="CD4596C9-69AA-9BE1-7D4C-AE105DC4EDCF">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>6F5AAAB1-2E42-659E-DDDE-E1C041307741</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B3FCBA6-FE4E-E3D6-1F4E-233B478EE0CE" name="EXPERIENCIA_LABORAL_AC_PK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 03:56:23 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C90C0642-34E2-ABC1-B78C-893247BE8554"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

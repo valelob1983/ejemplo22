@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A5D8C76-4613-63A0-C15E-44798892A988" name="ESTUDIOS_SECUNDARIOS">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>1EBA5459-4B19-CAAD-5446-8D5799FE9A76</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_inst_escolar" id="F96406AC-1A23-6927-A7BF-BA9301B2343C">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>352554C2-4595-DFE5-4AC3-66E40F40CCA9</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_escuela" id="DC32BD69-A79C-861F-1BEC-87945FBAF54A">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>EADEEE9D-4F97-0F29-CEC1-C990518CF80C</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_pais" id="5EE3621F-A2D4-A53A-DEC5-1D4D3A4FE82C">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>17C7AB92-099C-2CA3-1997-2AB2DF8D18E1</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E06F88E5-CC23-2CA9-F89C-C2A77606A3EB" referredColumn="894E624A-F8B4-219D-7AF2-782A62D66354"/>
+</associations>
+</Column>
+<Column name="id_tipo_es" id="55FE6B97-2FD2-2442-97C5-83B27DEC0287">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>D6844E90-9D19-425B-9881-0AD06E1FB7C9</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5B62DED-872E-C060-273A-9BCE868243FE" referredColumn="9B30CF03-1569-40FC-583A-D0F7D991525F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F2C7FF9-02B3-B7A4-EED0-1623780BF8ED" name="ESTUDIOS_SECUNDARIOS_PK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>E2AA5286-ECC8-0C11-4F1C-D581B73A6037</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F96406AC-1A23-6927-A7BF-BA9301B2343C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20E650B2-A924-E484-BD5D-AF40F7578B20" name="EST_SEC_TESCUELA_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>22923E16-D580-272A-2D29-787D3D498486</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55FE6B97-2FD2-2442-97C5-83B27DEC0287"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AD984C6-0837-D7B1-E8B3-BDE33282A66F" name="EST_SECUNDARIOS_PAIS_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>7242DCD2-0F01-83C3-4AC1-30C96A3E6FF4</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EE3621F-A2D4-A53A-DEC5-1D4D3A4FE82C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

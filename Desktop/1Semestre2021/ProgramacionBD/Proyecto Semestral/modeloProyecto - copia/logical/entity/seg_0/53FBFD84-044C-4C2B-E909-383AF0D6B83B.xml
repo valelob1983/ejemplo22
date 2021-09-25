@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53FBFD84-044C-4C2B-E909-383AF0D6B83B" name="POSTULANTE">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-19 23:09:40 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numrun" id="28730BD5-FD77-C985-F970-08A263004F94">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-19 23:16:37 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="run dv" id="33BAD36A-C85E-9AC8-9F64-4FC1BE4C740C">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-19 23:16:37 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="primer nombre" id="86904AEA-FD69-BA47-ED25-27F866DCB127">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-19 23:16:37 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="segundo nombre" id="61735832-A686-DE56-ED26-330A6ABA921B">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-19 23:16:37 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="primer apellido" id="DB3783FB-FC1B-3671-97A0-79209651D963">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-19 23:16:38 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="segundo apellido" id="20000C63-50C7-5F9B-77D9-9215DFCD8DC2">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-19 23:16:38 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id genero" id="23D098DB-9CCD-5FAC-C327-A96210A15F2D">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 01:24:02 UTC</createdTime>
+<generatorID>CB987279-6912-166E-F54D-6A8EDB7B37EC</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<referedAttribute>FD6C3DB0-712B-665C-2259-9EF440A446E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id nacionalidad" id="13FD0311-E355-B3BA-DFF3-D93DBE64DCD8">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 01:24:07 UTC</createdTime>
+<generatorID>97E628AD-45A8-4BFF-23A8-EB73499FBDFD</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<referedAttribute>6A7B2D72-47D4-7CA1-99E2-3C566946AF1A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha nacimiento" id="AFF83246-98DE-35FB-AC5D-BB800144AF2D">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 01:28:14 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id postulacion" id="44756193-D6D1-210D-D0A6-664224EBD45D">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:47:08 UTC</createdTime>
+<generatorID>75BF2B5C-6EED-5F5A-58AB-24111A6C3D16</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<referedAttribute>E3E48A5A-4782-ABD3-80FB-90DF21A3BE22</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VISA PASAPORTE num visa pas" id="5896CAC5-BC61-517B-603A-165B3FB00F7B">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 23:18:00 UTC</createdTime>
+<generatorID>A0EA7E9B-F087-9C6C-0B83-ADAA35BEC15C</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<referedAttribute>90A069AA-BAB3-15FF-9ADE-75021EBDF584</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F644F198-D080-F8E8-5234-C939C21E5229" name="POSTULANTE PK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-19 23:19:00 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>28730BD5-FD77-C985-F970-08A263004F94</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMUNA CIUDAD FK" directorySegmentName="seg_0" id="7876E56F-DA23-5529-99A2-ABB5D24FA296">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 01:27:09 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<sourcePk>45CDD93E-46F9-D73F-025C-DED0F5EDCBD3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>86679CF7-8567-8B23-4E9F-475044DBC7F6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F3840BB5-9829-64EB-3015-4513931024FD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

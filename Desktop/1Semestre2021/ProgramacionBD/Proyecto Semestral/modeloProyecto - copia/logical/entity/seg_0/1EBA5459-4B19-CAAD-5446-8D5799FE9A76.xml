@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1EBA5459-4B19-CAAD-5446-8D5799FE9A76" name="ESTUDIOS SECUNDARIOS">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-19 23:14:24 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id inst escolar" id="352554C2-4595-DFE5-4AC3-66E40F40CCA9">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 01:45:11 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre escuela" id="EADEEE9D-4F97-0F29-CEC1-C990518CF80C">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:56:29 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id pais" id="17C7AB92-099C-2CA3-1997-2AB2DF8D18E1">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 01:26:29 UTC</createdTime>
+<generatorID>7242DCD2-0F01-83C3-4AC1-30C96A3E6FF4</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<referedAttribute>1D63ECA9-179E-43E7-7D84-86A01BD2310F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id tipo es" id="D6844E90-9D19-425B-9881-0AD06E1FB7C9">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 01:46:31 UTC</createdTime>
+<generatorID>22923E16-D580-272A-2D29-787D3D498486</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<referedAttribute>14CC82F5-2FB1-B865-6DC0-73CC81B17B28</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E2AA5286-ECC8-0C11-4F1C-D581B73A6037" name="ESTUDIOS_SECUNDARIOS_PK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-19 23:30:01 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>352554C2-4595-DFE5-4AC3-66E40F40CCA9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

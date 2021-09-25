@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POST_VISA_PAS_FK" directorySegmentName="seg_0" id="A0EA7E9B-F087-9C6C-0B83-ADAA35BEC15C">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 23:18:00 UTC</createdTime>
+<generatorID>56892451-7014-C9C7-6A71-27DBF0986AE0</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<sourcePk>A27E9DAA-B57C-625A-ADFD-67A5531BEB1E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E12F7487-1210-4F85-4240-C54AA01059C5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>53FBFD84-044C-4C2B-E909-383AF0D6B83B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

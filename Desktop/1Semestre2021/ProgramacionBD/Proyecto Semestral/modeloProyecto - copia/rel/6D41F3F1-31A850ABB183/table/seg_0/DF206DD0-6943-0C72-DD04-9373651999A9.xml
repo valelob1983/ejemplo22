@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF206DD0-6943-0C72-DD04-9373651999A9" name="VISA_PASAPORTE">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>E12F7487-1210-4F85-4240-C54AA01059C5</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="num_visa_pas" id="0ED771AE-849A-0175-7F0E-E2E522AD968C">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>90A069AA-BAB3-15FF-9ADE-75021EBDF584</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="D18560B9-0297-B72D-A186-568F1CA75DD1">
+<createdBy>Acer</createdBy>
+<createdTime>2021-05-24 01:19:27 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C296CBBF-7827-F687-83A7-2670C9381D28" name="VISA_PASAPORTE_PK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>A27E9DAA-B57C-625A-ADFD-67A5531BEB1E</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0ED771AE-849A-0175-7F0E-E2E522AD968C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

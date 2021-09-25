@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DIRECCION COMUNA FK" directorySegmentName="seg_0" id="6DD2483D-DE7B-2A60-479E-38A1341DC74D">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 01:27:01 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<sourcePk>CFFA1407-F553-4ABF-69A5-854210273F62</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F3840BB5-9829-64EB-3015-4513931024FD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8FAD2493-27EE-C15B-7F7E-8FBEA7F059BE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

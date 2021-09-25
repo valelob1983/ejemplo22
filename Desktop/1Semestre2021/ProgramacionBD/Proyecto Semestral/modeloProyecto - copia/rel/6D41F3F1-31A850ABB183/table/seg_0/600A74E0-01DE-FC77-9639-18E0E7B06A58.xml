@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="600A74E0-01DE-FC77-9639-18E0E7B06A58" name="GRADOS_ACADEMICOS">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>B0A6EB8A-F85E-2F7F-F2E1-ECBA57B4197C</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_grado_aca" id="358E8B5A-E963-CD6C-8C9B-730B30DE040D">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>02F3EA75-1DB7-4CCA-CDE4-6984E5CA0A80</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_universidad" id="21B09906-F0C6-A6E9-C8D0-211B0F82E9B9">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 03:50:51 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1819949B-56BA-CED0-C7E7-27BE412576C5" referredColumn="D8086199-83C8-B895-0AD9-42E4D3EC0262"/>
+</associations>
+</Column>
+<Column name="nombre_prog_est" id="44BC0994-2E9E-C9A2-98DC-28B736BBEBCF">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>B899DA02-7D2F-0D35-C083-AA03237D62CD</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="annio_obtencion" id="E7AED103-C707-678F-611B-D75B3F03DF62">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>CAF462B5-7183-1C16-77D6-346FEAC6FC40</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="631C6910-63CF-1B30-0550-976707F62A40" name="GRADOS_ACADEMICOS_PK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 19:24:17 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="358E8B5A-E963-CD6C-8C9B-730B30DE040D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11AFACFA-9247-A8D1-A6D7-05963977ECEE" name="G_ACA_INST_ACA_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 03:50:51 UTC</createdTime>
+<generatorID>970C1AA7-935A-0603-A1B5-A4F2580BA57D</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21B09906-F0C6-A6E9-C8D0-211B0F82E9B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

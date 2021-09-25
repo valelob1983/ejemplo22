@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POST NACIONALIDAD FK" directorySegmentName="seg_0" id="97E628AD-45A8-4BFF-23A8-EB73499FBDFD">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 01:24:07 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<sourcePk>02B6A119-9E59-8DAE-854B-62875C7A0094</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B7E2141D-3D9E-3001-7FB2-0D1CCC62A57A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>53FBFD84-044C-4C2B-E909-383AF0D6B83B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POST GENERO FK" directorySegmentName="seg_0" id="CB987279-6912-166E-F54D-6A8EDB7B37EC">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 01:24:02 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<engineerTo>
+<item key="6D41F3F1-DBD6-C884-BEA0-31A850ABB183" value="true"/>
+</engineerTo>
+<sourcePk>5BFDF0EA-DC73-1B1E-DEF0-D7AE9AA9D905</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9C93A9C9-1D8A-EEE0-2218-1C4A0317A68C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>53FBFD84-044C-4C2B-E909-383AF0D6B83B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="56892451-7014-C9C7-6A71-27DBF0986AE0" containerWithKeyObject="22F8889F-8581-ABDF-9DB4-AE9528E96002" localFKIndex="4E028B5F-0DB0-9A17-944E-A4D5E6C3703A" name="POST_VISA_PAS_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 03:02:46 UTC</createdTime>
+<generatorID>A27E9DAA-B57C-625A-ADFD-67A5531BEB1E</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<referredTableLongName>VISA_PASAPORTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DF206DD0-6943-0C72-DD04-9373651999A9</referredTableID>
+<keyObject>C296CBBF-7827-F687-83A7-2670C9381D28</keyObject>
+<referredKeyID>C296CBBF-7827-F687-83A7-2670C9381D28</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>num_visa_pas</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

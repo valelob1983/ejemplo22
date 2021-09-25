@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B72BC0F8-60E5-87B3-12AA-D9B51EFEF9E1" containerWithKeyObject="8DAE5233-BE0D-1E5C-E417-44F959E7A7B3" localFKIndex="9111308F-E7D1-1CB3-13B6-5ED1D3AC5D6B" name="FORM_EXP_LABORAL_AC_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 03:56:30 UTC</createdTime>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<referredTableLongName>EXPERIENCIA_LABORAL_AC</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ED831027-871E-2DE2-B8EE-0EA8F45D9DAF</referredTableID>
+<keyObject>5B3FCBA6-FE4E-E3D6-1F4E-233B478EE0CE</keyObject>
+<referredKeyID>5B3FCBA6-FE4E-E3D6-1F4E-233B478EE0CE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_modalidad_el</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

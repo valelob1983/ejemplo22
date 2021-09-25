@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="263A5024-9C98-18C1-CCF7-0EBD4C284970" containerWithKeyObject="C0E8E94E-0A48-060F-A2FA-655FEA3826FB" localFKIndex="69F935FA-D75B-9747-2CBA-115F8FA19E54" name="IDIOMA_FORM_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>B2076CCA-EB71-A4AC-B367-F531A7FC4C00</generatorID>
+<ownerDesignName>modeloProyecto</ownerDesignName>
+<referredTableLongName>FORMULARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8DAE5233-BE0D-1E5C-E417-44F959E7A7B3</referredTableID>
+<keyObject>CC3CBC7E-B2D8-4113-D15B-E7F07CA091A6</keyObject>
+<referredKeyID>CC3CBC7E-B2D8-4113-D15B-E7F07CA091A6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_postulacion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

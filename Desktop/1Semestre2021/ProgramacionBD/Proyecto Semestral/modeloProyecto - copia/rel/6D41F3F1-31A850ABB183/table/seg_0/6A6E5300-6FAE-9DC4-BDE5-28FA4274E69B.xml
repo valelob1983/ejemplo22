@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A6E5300-6FAE-9DC4-BDE5-28FA4274E69B" name="OTRAS_FUENTES">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>688DFA0A-B08E-B96C-7434-F3B2F2DC941D</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_proyecto" id="D887D380-22A4-2494-D7AF-F48FD14A7AE2">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>07AC3945-1589-3CA0-3BB7-099A5DE75359</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E96278A-7AEB-EB94-80E9-0143235B06BA" referredColumn="E0DF2F07-57B2-A698-5287-8506C61BB604"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF3E8141-3FBF-27F7-E97C-C46E5B1EEA6F" name="OTRAS_FUENTES_PK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>0056ECE8-71B9-F483-6F41-3A6433B939D8</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D887D380-22A4-2494-D7AF-F48FD14A7AE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BDA06082-5000-2E03-E5E6-F2B1F2E57BB9" name="O_F_PART_PROY_FK">
+<createdBy>DUOC</createdBy>
+<createdTime>2021-05-22 02:58:55 UTC</createdTime>
+<generatorID>DE3861EE-289E-F664-33B0-D6689FE39147</generatorID>
+<ownerDesignName>modeloProyecto - copia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D887D380-22A4-2494-D7AF-F48FD14A7AE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
